@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/base_color</item>
+        <item name="colorPrimaryDark">@color/base_color</item>
+        <item name="colorAccent">@color/base_color</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme" />
+
+    <!--缩放动画-->
+    <style name="LDialogScaleAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/scale_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/scale_out_anim</item>
+    </style>
+
+    <style name="Content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">#a9b7b7</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
